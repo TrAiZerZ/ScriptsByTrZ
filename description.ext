@@ -1,0 +1,55 @@
+#include "dialog\MasterHandler.hpp"
+
+class CfgSounds
+{
+	sounds[] = {};
+	class JUL
+	{
+		name = "JUL";
+		sound[] = {"sounds\ma-jolie.ogg", 1, 1, 100};
+		titles[] = {0,""};
+	};
+	
+	class AMUSE
+	{
+		name = "AMUSE";
+		sound[] = {"sounds\amuse_pute.ogg", 1, 1, 100};
+		titles[] = {0,""};
+	};
+	
+	class a
+	{
+		name = "a";
+		sound[] = {"tracklist\1.ogg", 10, 1, 150};
+		titles[] = {0,""};
+	};
+
+	class b
+	{
+		name = "b";
+		sound[] = {"tracklist\1.ogg", 10, 1, 150};
+		titles[] = {0,""};
+	};
+	
+	class c
+	{
+		name = "c";
+		sound[] = {"tracklist\1.ogg", 10, 1, 150};
+		titles[] = {0,""};
+	};
+	
+	class bobMarley
+	{
+		name = "bobMarley";
+		sound[] = {"sounds\bob-marley.ogg", 1, 1, 100};
+		titles[] = {0,""};
+	};
+	
+	class tequilaHeinken
+	{
+		name = "tequilaHeinken";
+		sound[] = {"sounds\tequila-heineken.ogg", 5, 1, 100};
+		titles[] = {0,""};
+	};
+};
+
